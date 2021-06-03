@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Sleep tracker</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="https://use.typekit.net/udx2koe.css" />
+  </head>
+
+  <body>
+    <h1>SLEEP TRACKER</h1>
+    <img
+      src="moonstars.png"
+      alt="A illustration showing a half-moon and stars"
+    />
+    <div class="hours">HOW MANY HOURS OF SLEEP DID YOU GET LAST NIGHT?</div>
+
+    <div class="input-area">
+      <label class="record">Record hours here:</label>
+      <input id="input-field" type="number" />
+      <button id="save-button">Submit</button>
+      <button id="reset-button">Clear All History</button>
+
+      <div class="five-days-sleep">
+        Your hours of sleep per night for the past five days:
+      </div>
+
+      <div class="average-sleep"></div>
+      <p id="output-field"></p>
+    </div>
+
+    <div class="score hidden">
+      <h2>
+        If you sleep an average of <strong>1 - 5</strong> hours every night:
+      </h2>
+      <p>Seems like you aren’t sleeping well at all. Maybe try these tips:</p>
+      <ul>
+        <li>Don't look at your phone or TV right before going to bed</li>
+        <li>Make sure you drink enough water</li>
+        <li>Exercise more / be more outside</li>
+        <li>Try downloading sleeping apps, i.e. <q>Headspace</q></li>
+      </ul>
+
+      <h3>
+        If you sleep an average of <strong>6 - 8</strong> hours every night:
+      </h3>
+      <p>
+        You are doing quite well. But make sure you don't get less than 6 hours
+        a night!
+      </p>
+
+      <h4>If you sleep more than <strong>9</strong> hours every night:</h4>
+      <p>Good for you! (But make sure you don't sleep away all the fun too!)</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

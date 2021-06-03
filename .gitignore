@@ -1,0 +1,15 @@
+# File-, and foldernames in this file will be ignored by git.
+
+# Ignored files are usually build artifacts and machine generated files
+# that can be derived from your repository source or should otherwise
+# not be committed.
+
+# You can learn more at: https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+
+# Folders
+node_modules
+builds
+
+# Ignore files by extension
+*.psd
+*.ia

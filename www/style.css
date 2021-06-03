@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 170%;
+  color: white;
+  font-family: "raleway";
+}
+
+.raleway {
+  font-family: "raleway";
+}
+
+.italic {
+  font-style: italic;
+}
+
+.weight-100 {
+  font-weight: 100;
+}
+
+.weight-200 {
+  font-weight: 200;
+}
+
+.weight-300 {
+  font-weight: 300;
+}
+
+.weight-400 {
+  font-weight: 400;
+}
+
+.weight-500 {
+  font-weight: 500;
+}
+
+.weight-600 {
+  font-weight: 600;
+}
+
+.weight-700 {
+  font-weight: 700;
+}
+
+.weight-800 {
+  font-weight: 800;
+}
+
+.weight-900 {
+  font-weight: 900;
+}
+
+h1 {
+  margin-top: 50px;
+  color: #fdc678;
+  font-size: 7.1rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+img {
+  top: 190px;
+  right: 70px;
+  width: 22%;
+  display: block;
+  position: absolute;
+}
+
+.hours {
+  text-align: center;
+  color: #e98051;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-top: -60px;
+}
+
+.record {
+  flex: none;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.input-area {
+  text-align: center;
+}
+
+.input-area label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input-area input {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.input-area button {
+  text-align: left;
+  padding: 10px;
+  background-color: #c43a75;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.input-area #output-field {
+  padding: 10px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+#output-field {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.five-days-sleep {
+  padding-top: 28px;
+  margin-bottom: 17px;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.score {
+  padding: 10px;
+  margin-top: -20px;
+  margin-left: 350px;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+ul {
+  margin-top: 10px;
+}
+
+ul li {
+  font-size: 1.4rem;
+  font-weight: 300;
+  text-align: left;
+}
+
+.sleepAverage {
+  color: #c43a75;
+  font-size: 8rem;
+}
+
+.average-sleep {
+  padding: 20px;
+  font-size: 3rem;
+  font-weight: 900;
+  color: #e98051;
+}
+
+.average-sleep div {
+  display: inline-block;
+  padding: 0 10px;
+}
