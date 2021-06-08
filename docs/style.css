@@ -10,9 +10,17 @@ body {
 
 body {
   background-color: rgb(77, 46, 93);
-  color: inherit;
+}
+
+.link {
+  color: white;
   font-family: "raleway";
   padding: 30px;
   margin: 10px;
   text-decoration: none;
+}
+
+img {
+  width: 10%;
+  margin-left: 400px;
 }
