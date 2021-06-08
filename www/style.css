@@ -14,9 +14,9 @@ body {
 
 body {
   background-image: url("background.png");
-  background-repeat: no-repeat;
+  background-repeat: no-repeat center center fixed;
   background-position: 50% 50%;
-  background-size: 170%;
+  background-size: 200%;
   color: white;
   font-family: "raleway";
 }
@@ -132,6 +132,7 @@ img {
 #output-field {
   font-size: 1.8rem;
   font-weight: 700;
+  margin-bottom: 50px;
 }
 
 .five-days-sleep {
@@ -144,7 +145,7 @@ img {
 .score {
   padding: 10px;
   margin-top: -20px;
-  margin-left: 350px;
+  text-align: center;
   font-weight: 300;
 }
 
@@ -170,12 +171,13 @@ p {
 
 ul {
   margin-top: 10px;
+  margin-left: 400px;
+  text-align: left;
 }
 
 ul li {
   font-size: 1.4rem;
   font-weight: 300;
-  text-align: left;
 }
 
 .sleepAverage {
