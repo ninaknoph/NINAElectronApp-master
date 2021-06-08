@@ -23,4 +23,5 @@ a:link {
 
 a:hover {
   text-decoration: underline;
+  border-bottom: 1px white solid;
 }
