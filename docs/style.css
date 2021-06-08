@@ -12,7 +12,7 @@ body {
   background-color: rgb(77, 46, 93);
 }
 
-.link {
+a.link {
   color: white;
   font-family: "raleway";
   padding: 30px;
