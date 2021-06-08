@@ -6,11 +6,11 @@
 
 body {
   background-color: rgb(77, 46, 93);
+  padding: 20px;
 }
 
 a:link {
   font-family: "raleway";
-  padding-top: 200px;
   text-decoration: none;
   color: white;
 }
