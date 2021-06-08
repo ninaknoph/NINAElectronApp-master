@@ -15,7 +15,7 @@ body {
 a:link {
   font-family: "raleway";
   padding: 50px;
-  margin: 50px;
-  text-decoration: underline;
+  margin-top: 50px;
+  text-decoration: none;
   color: white;
 }
