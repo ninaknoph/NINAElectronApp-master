@@ -12,4 +12,6 @@ body {
   background-color: rgb(77, 46, 93);
   color: white;
   font-family: "raleway";
+  padding: 30px;
+  text-decoration: none;
 }
