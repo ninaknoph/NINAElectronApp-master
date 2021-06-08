@@ -16,12 +16,7 @@ a:link {
   font-family: "raleway";
   padding: 50px;
   margin: 50px;
-  text-decoration: none;
-  color: white;
-  color: inherit;
-}
-
-a:hover {
   text-decoration: underline;
   color: white;
+  color: inherit;
 }
